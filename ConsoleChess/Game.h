@@ -2,6 +2,7 @@
 #include "include.h"
 class Player;
 class BoardCell;
+class Figure;
 
 class Game
 {

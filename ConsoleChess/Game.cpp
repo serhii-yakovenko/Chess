@@ -49,13 +49,14 @@ int Game::letter_to_num(char let)
 void Game::printBoard()
 {
 	std::cout << "  A  B  C  D  E  F  G  H\n";
+	std::cout << " ________________________\n";
 	for (int i = 0; i < 8; i++) {
 		std::cout << i + 1 << "|";
 		for (int j = 0; j < 8; j++) {
 			board[i][j]->printCell();
 		}
 		std::cout << "\n";
-		std::cout << "________________________\n";
+		std::cout << " ________________________\n";
 	}
 }
 

@@ -8,6 +8,7 @@ class Bishop;
 class Knight;
 class Rook;
 class Pawn;
+class Figure;
 
 class Player
 {

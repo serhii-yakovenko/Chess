@@ -9,7 +9,10 @@ BoardCell::BoardCell()
 
 void BoardCell::printCell()
 {
-	std::cout << figure->type << '|';
+	if (figure != nullptr)
+		std::cout << figure->type << '|';
+	else
+		std::cout << "__|";
 }
 
 BoardCell::BoardCell(int x, int y, Figure* figure) : x(x), y(y), figure(figure)

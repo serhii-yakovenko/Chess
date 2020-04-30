@@ -10,5 +10,6 @@ int main(){
 	menu();
 	Game* game = new Game();
 	game->printBoard();
+	getchar();
 	return 0;
 }

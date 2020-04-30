@@ -6,7 +6,7 @@
 #include <math.h>
 #include <vector>
 #include <algorithm>
-#include "Figure.h"
+#include <string>
 
 
 const bool WHITE = 1;

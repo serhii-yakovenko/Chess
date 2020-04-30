@@ -1,12 +1,13 @@
 #include "Figure.h"
 #include "Game.h"
-
+#include "Player.h"
+#include"BoardCell.h"
 
 Figure::Figure()
 {
 }
 
-Figure::Figure(int x, int y, bool colour, std::string type) : colour(colour)
+Figure::Figure(int x, int y, bool colour, std::string type) : colour(colour), x(x), y(y)
 {
 	if (colour == BLACK)
 		this->type = 'b' + type;
@@ -38,6 +39,16 @@ void Figure::setY(int y)
 bool Figure::getColour()
 {
 	return colour;
+}
+
+bool Figure::freeMove(int xTarge, int yTarget, BoardCell * board[8][8])
+{
+	return false;
+}
+
+bool Figure::checkMove(Game * curGame, int xTarget, int yTarget)
+{
+	return false;
 }
 
 
