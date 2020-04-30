@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -115,6 +115,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Bishop.h" />
+    <ClInclude Include="BoardCell.h" />
+    <ClInclude Include="Figure.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="include.h" />
+    <ClInclude Include="King.h" />
+    <ClInclude Include="Knight.h" />
+    <ClInclude Include="Pawn.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Queen.h" />
+    <ClInclude Include="Rook.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bishop.cpp" />
+    <ClCompile Include="BoardCell.cpp" />
+    <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="King.cpp" />
+    <ClCompile Include="Knight.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pawn.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Queen.cpp" />
+    <ClCompile Include="Rook.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
